@@ -1,0 +1,135 @@
+#root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.flex-container{
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+.flex-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+.flex-inner p{
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #686868;
+
+}
+.boxShadow{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.heading-title{
+  background-color: #434343;
+  text-shadow: 0 2px 1px rgb(0 0 0/40%);
+  color: #dbdbdb;
+  padding: 0.8rem 1rem;
+  margin-top: 0;
+}
+.react-datepicker-wrapper input[type="text"]{
+  border: 1px solid #e5e5e5;
+  height: 50px;
+  color: #646161;
+  padding: 0 19px;
+width:100%;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+#btn{
+  height: 40px;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    font-size: 13px;
+    line-height: 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    background-color: #ed1c24;
+    color: #fff;
+}
+#btn:hover{
+  background-color: #232323
+}
+
+.tbleWrapper{
+  max-width: 520px;
+  width: 100%;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #333;
+  border-spacing: 0;
+    border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #dbdbdb;
+  padding: 7px;
+  text-align: center;
+}
+
+.big_bold {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.footer{
+  font-size: small;
+  color: #232323;
+  margin: 1rem 0;
+  text-align: justify;
+  padding: 1rem;
+}
